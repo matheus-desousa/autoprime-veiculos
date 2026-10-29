@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🚗 AutoPrime — Catálogo Automotivo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Aplicação web front-end de vitrine automotiva focada em roteamento dinâmico SPA, componentização modular e experiência fluida do usuário.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Proposta do Projeto
+O **AutoPrime** simula uma vitrine moderna para exploração de veículos de alta performance. O objetivo técnico central foi implementar navegação fluida em Single Page Application (SPA), garantindo isolamento de componentes reutilizáveis e consumo de parâmetros de rota para renderização de detalhes sob demanda.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
+* **React.js** (Arquitetura modular, componentização funcional e estado)
+* **React Router DOM** (Roteamento dinâmico e extração de parâmetros via `useParams`)
+* **JavaScript (ES6+)** (Manipulação de coleções de dados e métodos de iteração)
+* **CSS3 (Styled Components)** (Layout responsivo com Flexbox e Grid)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Principais Recursos
+* **Vitrine Dinâmica:** Renderização em grid dos veículos disponíveis a partir de estrutura de dados desacoplada.
+* **Rotas Dinâmicas (`useParams`):** Acesso à página individual de cada veículo por meio de identificadores dinâmicos na URL (`/veiculos/:slug`).
+* **Canal Direto de Contato:** Botão de chamada para ação direta com atendimento via WhatsApp na página de detalhes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Como Executar o Projeto Localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré-requisitos
+Antes de começar, certifique-se de ter instalado em sua máquina:
+* [Node.js](https://nodejs.org/) (versão 16 ou superior)
+* [Git](https://git-scm.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Passo a Passo
+1. Clone o repositório:
+   git clone [https://github.com/matheus-desousa/autoprime-veiculos.git](https://github.com/matheus-desousa/autoprime-veiculos.git)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Acesse o diretório do projeto:
+   cd autoprime-veiculos
 
-### `npm run eject`
+3. Instale as dependências:
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Inicie o servidor de desenvolvimento:
+   npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> A aplicação será aberta automaticamente em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por **Matheus de Sousa** | [LinkedIn](https://www.linkedin.com/in/matheus-de-sousa-227376214/)
