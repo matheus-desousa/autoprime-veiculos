@@ -2,6 +2,8 @@
 
 > Aplicação web front-end de vitrine automotiva focada em roteamento dinâmico SPA, componentização modular e experiência fluida do usuário.
 
+🔗 **Demonstração Online:** [Acessar AutoPrime na Vercel](https://autoprime-veiculos.vercel.app/)
+
 ---
 
 ## 🎯 Proposta do Projeto
